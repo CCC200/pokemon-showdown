@@ -499,7 +499,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		mod: 'gen3',
 		searchShow: false,
 		ruleset: ['Standard Draft', 'Baton Pass Stat Trap Clause', '!Evasion Abilities Clause', 'Serene Grace Flinch Clause', 'Confusion Clause'],
-		banlist: ['Sand Stream ++ Sand Veil'],
+		banlist: ['Sand Stream ++ Sand Veil', 'Sandstorm'],
 	},
 
 	// OM of the Month
