@@ -5,6 +5,61 @@ import type { Learnset } from "../sim/dex-species";
 // The list of formats is stored in config/formats.js
 export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 
+	// Custom
+	serenegraceflinchclause: {
+		effectType: 'ValidatorRule',
+		name: 'Serene Grace Flinch Clause',
+		desc: "Bans Pok&eacute;mon with the ability Serene Grace from using any moves with a chance to flinch.",
+		onBegin() {
+			this.add('rule', 'Serene Grace Flinch Clause: Serene Grace + flinching moves are banned.');
+		},
+		onValidateSet(set) {
+			const ability = this.toID(set.ability);
+			const flinchmoves = [
+				'airslash', 'astonish', 'bite', 'boneclub', 'darkpulse', 'doubleironbash', 'dragonrush', 'extrasensory',
+				'fierywrath', 'firefang', 'floatyfall', 'headbutt', 'heartstamp', 'hyperfang', 'icefang', 'iciclecrash',
+				'ironhead', 'lowkick', 'mountaingale', 'needlearm', 'rockslide', 'rollingkick', 'skyattack', 'snore',
+				'steamroller', 'stomp', 'thunderfang', 'triplearrows', 'twister', 'upperhand', 'waterfall', 'zenheadbutt',
+				'zingzap',
+			];
+			if(ability === 'serenegrace') {
+				for(const moveId of set.moves) {
+					const move = this.dex.moves.get(moveId);
+					if(flinchmoves.includes(move.id)) return [
+						`${set.name || set.species} has Serene Grace as their ability and flinching moves, which is banned by Serene Grace Flinch Clause.`
+					];
+				}
+			} 
+		},
+	},
+	confusionclause: {
+		effectType: 'ValidatorRule',
+		name: 'Confusion Clause',
+		desc: "Stops teams from having more than one move that can cause confusion.",
+		onBegin() {
+			this.add('rule', 'Confusion Clause: Limit one confusion move.');
+		},
+		onValidateTeam(team) {
+			const confusionmoves = [
+				'alluringvoice', 'axekick', 'chatter', 'confuseray', 'confusion', 'dizzypunch', 'dynamicpunch',
+				'flatter', 'hurricane', 'magicaltorque', 'psybeam', 'rockclimb', 'shadowpanic', 'signalbeam',
+				'strangesteam', 'supersonic', 'swagger', 'sweetkiss', 'teeterdance', 'waterpulse',
+			];
+			let hasConfusion = false;
+			for(const set of team) {
+				for(const moveId of set.moves) {
+					const move = this.dex.moves.get(moveId);
+					if(confusionmoves.includes(move.id)) {
+						if(hasConfusion) return [
+							'More than one move on your team causes confusion, which is banned by Confusion Clause.'
+						];
+						else hasConfusion = true;
+					}
+				}
+			}
+		},
+	},
+
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
 

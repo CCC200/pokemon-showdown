@@ -498,7 +498,7 @@ export const Formats: import('../sim/dex-formats').FormatList = [
 		name: "[Gen 3] Draft",
 		mod: 'gen3',
 		searchShow: false,
-		ruleset: ['Standard Draft', 'Baton Pass Stat Trap Clause', '!Evasion Abilities Clause'],
+		ruleset: ['Standard Draft', 'Baton Pass Stat Trap Clause', '!Evasion Abilities Clause', 'Serene Grace Flinch Clause', 'Confusion Clause'],
 		banlist: ['Sand Stream ++ Sand Veil'],
 	},
 
