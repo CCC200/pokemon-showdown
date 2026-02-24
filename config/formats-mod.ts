@@ -50,6 +50,16 @@ export const Formats: FormatList = [
 		teambuilderFormat: 'National Dex',
 		searchShow: false,
 	},
+	{
+		section: "RBY Mods",
+		column: 1,
+	},
+	{
+		name: "[Gen 1] ColorPlus OU",
+		mod: 'colorplus',
+		ruleset: ['Standard'],
+		banlist: ['Uber'],
+	},
 	// Default Metas
 	// Please keep these here for testing / debugging
 	{
