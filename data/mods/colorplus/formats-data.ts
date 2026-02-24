@@ -47,7 +47,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 	},
 	bellossom: {
-		tier: "UU",
+		tier: "OU",
 	},
 	politoed: {
 		tier: "OU",
