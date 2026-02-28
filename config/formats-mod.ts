@@ -60,6 +60,15 @@ export const Formats: FormatList = [
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
 	},
+	{
+		name: "[Gen 1] Stadium Tradebacks Cup",
+		mod: 'gen1stadium',
+		searchShow: false,
+		ruleset: [
+			'Picked Team Size = 3', 'Min Level = 50', 'Max Level = 55', 'Max Total Level = 155',
+			'Standard', 'Team Preview', 'Allow Tradeback'],
+		banlist: ['Uber'],
+	},
 	// Default Metas
 	// Please keep these here for testing / debugging
 	{
