@@ -1,148 +1,148 @@
 export const Moves: {[k: string]: ModdedMoveData} = {
-    blizzard: {
+	blizzard: {
 		inherit: true,
 		desc: "Has a 10% chance to freeze the target. If the weather is Hail, this move does not check accuracy.",
 		shortDesc: "10% chance to freeze foe(s). Can't miss in Hail.",
 	},
 	cut: {
-        inherit: true,
-        accuracy: 100,
-        basePower: 60,
-        type: "Steel",
-    },
-    fly: {
-        inherit: true,
-        accuracy: 100,
-    },
-    takedown: {
-        inherit: true,
-        accuracy: 100,
-        pp: 15,
-    },
-    sing: {
-        inherit: true,
-        accuracy: 75,
-    },
-    supersonic: {
-        inherit: true,
-        accuracy: 65,
-    },
-    strength: {
-        inherit: true,
-        type: "Fighting",
-    },
-    firespin: {
-        inherit: true,
-        basePower: 40,
-        accuracy: 90,
-    },
-    dig: {
-        inherit: true,
-        basePower: 90,
-    },
-    scald: {
-        inherit: true,
-        basePower: 70,
-    },
-    crabhammer: {
-        inherit: true,
-        accuracy: 95,
-    },
-    furyswipes: {
-        inherit: true,
-        basePower: 20,
-        accuracy: 85,
-    },
-    octazooka: {
-        inherit: true,
-        basePower: 75,
-        accuracy: 95,
-    },
-    painsplit: {
-        inherit: true,
-        type: "Ghost",
-    },
-    rapidspin: {
-        inherit: true,
-        pp: 20,
-    },
-    hiddenpower: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerbug: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerdark: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerdragon: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerelectric: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerfighting: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerfire: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerflying: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerghost: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowergrass: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerground: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerice: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerpoison: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerpsychic: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerrock: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowersteel: {
-        inherit: true,
-        basePower: 70,
-    },
-    hiddenpowerwater: {
-        inherit: true,
-        basePower: 70,
-    },
-    whirlpool: {
-        inherit: true,
-        basePower: 40,
-        accuracy: 90,
-    },
-    moonlight: {
-        inherit: true,
-        type: "Normal",
-    },
+		inherit: true,
+		accuracy: 100,
+		basePower: 60,
+		type: "Steel",
+	},
+	fly: {
+		inherit: true,
+		accuracy: 100,
+	},
+	takedown: {
+		inherit: true,
+		accuracy: 100,
+		pp: 15,
+	},
+	sing: {
+		inherit: true,
+		accuracy: 75,
+	},
+	supersonic: {
+		inherit: true,
+		accuracy: 65,
+	},
+	strength: {
+		inherit: true,
+		type: "Fighting",
+	},
+	firespin: {
+		inherit: true,
+		basePower: 40,
+		accuracy: 90,
+	},
+	dig: {
+		inherit: true,
+		basePower: 90,
+	},
+	scald: {
+		inherit: true,
+		basePower: 70,
+	},
+	crabhammer: {
+		inherit: true,
+		accuracy: 95,
+	},
+	furyswipes: {
+		inherit: true,
+		basePower: 20,
+		accuracy: 85,
+	},
+	octazooka: {
+		inherit: true,
+		basePower: 75,
+		accuracy: 95,
+	},
+	painsplit: {
+		inherit: true,
+		type: "Ghost",
+	},
+	rapidspin: {
+		inherit: true,
+		pp: 20,
+	},
+	hiddenpower: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerbug: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerdark: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerdragon: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerelectric: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerfighting: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerfire: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerflying: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerghost: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowergrass: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerground: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerice: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerpoison: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerpsychic: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerrock: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowersteel: {
+		inherit: true,
+		basePower: 70,
+	},
+	hiddenpowerwater: {
+		inherit: true,
+		basePower: 70,
+	},
+	whirlpool: {
+		inherit: true,
+		basePower: 40,
+		accuracy: 90,
+	},
+	moonlight: {
+		inherit: true,
+		type: "Normal",
+	},
 	// IMPORTED MOVES
 	// Available moves with no changes
 	teleport: {
@@ -856,9 +856,9 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 	hyperfang: {
 		inherit: true,
 	},
-    // EXISTING GEN 9 MOVES
-    // Makes all other moves unavailable
-    accelerock: {
+	// EXISTING GEN 9 MOVES
+	// Makes all other moves unavailable
+	accelerock: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
@@ -3109,6 +3109,62 @@ export const Moves: {[k: string]: ModdedMoveData} = {
 		isNonstandard: "Unobtainable",
 	},
 	zippyzap: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	alluringvoice: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	burningbulwark: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	dragoncheer: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	electroshot: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	ficklebeam: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	hardpress: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	malignantchain: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	mightycleave: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	psychicnoise: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	supercellslam: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	tachyoncutter: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	terastarstorm: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	thunderclap: {
+		inherit: true,
+		isNonstandard: "Unobtainable",
+	},
+	upperhand: {
 		inherit: true,
 		isNonstandard: "Unobtainable",
 	},
