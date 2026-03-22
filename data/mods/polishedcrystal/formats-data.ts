@@ -4346,4 +4346,148 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "Illegal",
 		isNonstandard: "Unobtainable",
 	},
+	alcremierubycream: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	alcremiematchacream: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	alcremiemintcream: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	alcremielemoncream: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	alcremierubyswirl: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	alcremiecaramelswirl: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	alcremierainbowswirl: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	burmysandy: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	burmytrash: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deerlingsummer: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deerlingautumn: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	deerlingwinter: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	miniororange: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	minioryellow: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	miniorgreen: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	miniorblue: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	miniorindigo: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	miniorviolet: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	shelloseast: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonicysnow: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonpolar: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillontundra: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivilloncontinental: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillongarden: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonelegant: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonmodern: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonmarine: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonarchipelago: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonhighplains: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonsandstorm: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonriver: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonmonsoon: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonsavanna: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonsun: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonocean: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
+	vivillonjungle: {
+		tier: "Illegal",
+		isNonstandard: "Unobtainable",
+	},
 };
