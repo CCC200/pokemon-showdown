@@ -1981,7 +1981,7 @@ export const Pokedex: {[k: string]: ModdedSpeciesData} = {
 		inherit: true,
 		baseStats: {hp: 113, atk: 70, def: 120, spa: 135, spd: 65, spe: 52},
 		types: ["Ground", "Normal"],
-		abilities: {0: "Minds Eye"},
+		abilities: {0: "Mind's Eye"},
 	},
 	ursaluna: {
 		inherit: true,
