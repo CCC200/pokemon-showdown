@@ -30,6 +30,7 @@ export const Scripts: {[k: string]: ModdedBattleScriptsData} = {
 	teambuilderConfig: {
 		graphicsGen: 2,
 		useDVs: true,
+		disableTeraTypes: true,
 		excludeStandardTiers: true,
 		customTiers: ["Uber", "OU", "UUBL", "UU", "RUBL", "RU", "NUBL", "NU", "PUBL", "PU", "ZUBL", "ZU", "NFE", "LC"],
 		excludeStandardItems: true,

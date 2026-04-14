@@ -20,10 +20,10 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			}
 			// Verify DV limits
 			const ivStats = ['HP', 'Atk', 'Def', 'SpA', 'SpD', 'Spe'];
-			ivStats.forEach(stat => {
+			for (const stat of ivStats) {
 				if (set.ivs[stat.toLowerCase()] > 15)
 					return [`${species}'s ${stat} DV is above 15. Please set its value to 15 or lower.`];
-			});
+			}
 			// Mewtwo-Armored
 			const speciesid = this.toID(species);
 			const itemid = this.toID(set.item);
