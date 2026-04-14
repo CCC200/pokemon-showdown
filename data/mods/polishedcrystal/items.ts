@@ -1,8 +1,10 @@
 export const Items: {[k: string]: ModdedItemData} = {
     // TODO: Add armor suit
-    // armorsuit: {
-    //     
-    // },
+    armorsuit: {
+        name: "Armor Suit",
+        shortDesc: "If held by a Mewtwo, transforms into Mewtwo-Armored.",
+        itemUser: ["Mewtwo-Armored"],
+    },
     // Updated items
     berserkgene: {
         inherit: true,
