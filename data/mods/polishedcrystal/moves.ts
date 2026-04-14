@@ -1,4 +1,21 @@
 export const Moves: {[k: string]: ModdedMoveData} = {
+	// New moves
+	hiddenpowerfairy: {
+		num: 237,
+		accuracy: 100,
+		basePower: 70,
+		category: "Special",
+		realMove: "Hidden Power",
+		isNonstandard: "Past",
+		name: "Hidden Power Fairy",
+		pp: 15,
+		priority: 0,
+		flags: { protect: 1, mirror: 1 },
+		target: "normal",
+		type: "Fairy",
+		contestType: "Clever",
+	},
+	// Updated moves
 	blizzard: {
 		inherit: true,
 		desc: "Has a 10% chance to freeze the target. If the weather is Hail, this move does not check accuracy.",

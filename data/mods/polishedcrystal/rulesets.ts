@@ -10,7 +10,6 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 		],
 		banlist: ['Moody'],
 		onValidateSet(set) {
-			console.log(set.ivs);
 			const species = this.dex.species.get(set.species);
 			// Check real tiers of cosmetic formes
 			if (species.isCosmeticForme) {
