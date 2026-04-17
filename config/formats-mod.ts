@@ -59,6 +59,7 @@ export const Formats: FormatList = [
 		mod: 'colorplus',
 		ruleset: ['Standard'],
 		banlist: ['Uber'],
+		searchShow: false,
 	},
 	{
 		name: "[Gen 1] Stadium Tradebacks Cup",
