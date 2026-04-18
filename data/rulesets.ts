@@ -5,6 +5,13 @@ import type { Learnset } from "../sim/dex-species";
 // The list of formats is stored in config/formats.js
 export const Rulesets: import('../sim/dex-formats').FormatDataTable = {
 
+	// Custom rules
+	anyhiddenpower: {
+		effectType: 'ValidatorRule',
+		name: 'Any Hidden Power',
+		desc: "Allows any Hidden Power type without IV restrictions.",
+	},
+
 	// Rulesets
 	///////////////////////////////////////////////////////////////////
 

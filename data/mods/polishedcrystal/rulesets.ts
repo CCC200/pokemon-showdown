@@ -7,6 +7,7 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
 			// Polished specific
 			'Sleep Clause Mod', 'Freeze Clause Mod', 'Terastal Clause', 'DryPass Clause', '!Obtainable Misc',
+			'Any Hidden Power',
 		],
 		banlist: ['Moody', 'Mega'],
 		onValidateSet(set) {

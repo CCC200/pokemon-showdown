@@ -1211,7 +1211,7 @@ export class TeamValidator {
 				problems.push(`${name} has Hidden Power ${set.hpType}, but its IVs are for Hidden Power ${ivHpType}.`);
 			}
 		} else if (set.hpType) {
-			if (!this.possibleBottleCapHpType(set.hpType, set.ivs)) {
+			if (!ruleTable.has('anyhiddenpower') && !this.possibleBottleCapHpType(set.hpType, set.ivs)) {
 				problems.push(`${name} has Hidden Power ${set.hpType}, but its IVs don't allow this even with (Bottle Cap) Hyper Training.`);
 			}
 		}
