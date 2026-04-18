@@ -9,7 +9,7 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			'Sleep Clause Mod', 'Freeze Clause Mod', 'Terastal Clause', 'DryPass Clause', '!Obtainable Misc',
 			'Any Hidden Power',
 		],
-		banlist: ['Moody', 'Mega'],
+		banlist: ['Moody', 'Mega', 'Razor Fang', 'King\'s Rock'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			// Check real tiers of cosmetic formes
