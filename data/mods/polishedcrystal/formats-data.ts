@@ -795,10 +795,10 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	sneaselhisui: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	sneasel: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	sneasler: {
 		tier: "OU",
