@@ -46,7 +46,7 @@ export const Formats: FormatList = [
 	{
 		name: "[Gen 9] Polished Crystal AG",
 		mod: 'polishedcrystal',
-		ruleset: ['Obtainable', '+Past', 'Sketch Post-Gen 7 Moves', 'Terastal Clause', '!Obtainable Misc'],
+		ruleset: ['Obtainable', '+Past', 'Sketch Post-Gen 7 Moves', 'Terastal Clause', '!Obtainable Misc', 'Any Hidden Power', 'HP Percentage Mod', 'Cancel Mod'],
 		teambuilderFormat: 'National Dex',
 		searchShow: false,
 	},
