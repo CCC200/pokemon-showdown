@@ -498,7 +498,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "NFE",
 	},
 	mew: {
-		tier: "OU",
+		tier: "Uber",
 	},
 	mewtwoarmored: {
 		tier: "Uber",
