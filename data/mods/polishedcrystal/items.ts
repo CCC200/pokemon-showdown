@@ -1,5 +1,5 @@
 export const Items: {[k: string]: ModdedItemData} = {
-    // TODO: Add armor suit
+    // New items
     armorsuit: {
         name: "Armor Suit",
         shortDesc: "If held by a Mewtwo, transforms into Mewtwo-Armored.",
@@ -13,6 +13,28 @@ export const Items: {[k: string]: ModdedItemData} = {
     pinkbow: {
         inherit: true,
         shortDesc: "Holder's Normal-type attacks have 1.1x power.",
+    },
+    metalpowder: {
+        inherit: true,
+        shortDesc: "If held by a Ditto, its Defense is doubled, even while Transformed.",
+        onModifyDef(def, pokemon) {
+			if (pokemon.species.name === 'Ditto') {
+				return this.chainModify(2);
+			}
+		},
+    },
+    quickpowder: {
+        inherit: true,
+        shortDesc: "If held by a Ditto, its Speed is doubled, even while Transformed.",
+        onModifySpe(spe, pokemon) {
+			if (pokemon.species.name === 'Ditto') {
+				return this.chainModify(2);
+			}
+		},
+    },
+    icyrock: {
+        inherit: true,
+        shortDesc: "Holder's use of Hail lasts 8 turns instead of 5.",
     },
     // Existing items
     cheriberry: {
@@ -288,12 +310,6 @@ export const Items: {[k: string]: ModdedItemData} = {
     luckypunch: {
         inherit: true,
     },
-    metalpowder: {
-        inherit: true,
-    },
-    quickpowder: {
-        inherit: true,
-    },
     scopelens: {
         inherit: true,
     },
@@ -319,9 +335,6 @@ export const Items: {[k: string]: ModdedItemData} = {
         inherit: true,
     },
     smoothrock: {
-        inherit: true,
-    },
-    icyrock: {
         inherit: true,
     },
     choiceband: {
