@@ -65,11 +65,12 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			});
 			marked_moves = marked_moves.filter(move => { return move.learn.length === 1; });
 			// unique checks
-			const move_one = this.dex.moves.get(marked_moves[0].name);
 			if (marked_moves.length > 1) {
+				const move_one = this.dex.moves.get(marked_moves[0].name);
 				const move_two = this.dex.moves.get(marked_moves[1].name);
 				return [`${species} cannot use ${move_one} and ${move_two}.`];
-			} else if (marked_moves[0].finalstage) {
+			} else if (marked_moves.length === 1 && marked_moves[0].finalstage) {
+				const move_one = this.dex.moves.get(marked_moves[0].name);
 				const learnset = this.dex.species.learnsetCache.get(speciesid).learnset;
 				for (const move of set.moves) {
 					if (learnset[this.toID(move)] === undefined) return [`${species} cannot use ${move} and ${move_one}.`];
