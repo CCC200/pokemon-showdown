@@ -663,7 +663,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 	},
 	primeape: {
-		tier: "OU",
+		tier: "NFE",
 	},
 	psyduck: {
 		tier: "LC",
