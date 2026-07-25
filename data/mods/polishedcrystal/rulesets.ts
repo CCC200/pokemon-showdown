@@ -8,10 +8,10 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 			'Obtainable', '+Past', 'Sketch Post-Gen 7 Moves', 'Species Clause', 'Nickname Clause', 'OHKO Clause',
 			'Evasion Clause', 'Endless Battle Clause', 'HP Percentage Mod', 'Cancel Mod',
 			// Polished specific
-			'Sleep Clause Mod', 'Freeze Clause Mod', 'Terastal Clause', 'DryPass Clause', '!Obtainable Misc',
+			'Sleep Clause Mod', 'Freeze Clause Mod', 'Terastal Clause', '!Obtainable Misc',
 			'Any Hidden Power',
 		],
-		banlist: ['Moody', 'Mega', 'Razor Fang', 'King\'s Rock'],
+		banlist: ['Moody', 'Mega', 'Razor Fang', 'King\'s Rock', 'Baton Pass'],
 		onValidateSet(set) {
 			const species = this.dex.species.get(set.species);
 			const speciesid = this.toID(species);
