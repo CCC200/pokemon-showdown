@@ -23,20 +23,14 @@ export const Items: {[k: string]: ModdedItemData} = {
 			}
 		},
     },
-    quickpowder: {
-        inherit: true,
-        shortDesc: "If held by a Ditto, its Speed is doubled, even while Transformed.",
-        onModifySpe(spe, pokemon) {
-			if (pokemon.species.name === 'Ditto') {
-				return this.chainModify(2);
-			}
-		},
-    },
     icyrock: {
         inherit: true,
         shortDesc: "Holder's use of Hail lasts 8 turns instead of 5.",
     },
     // Existing items
+    quickpowder: {
+        inherit: true,
+    },
     cheriberry: {
         inherit: true,
     },

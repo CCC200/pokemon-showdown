@@ -28,7 +28,7 @@ export const Formats: FormatList = [
 		mod: 'polishedcrystal',
 		ruleset: ['Standard'],
 		teambuilderFormat: 'National Dex',
-		banlist: ['Uber', 'Shadow Tag', 'Quick Powder'],
+		banlist: ['Uber', 'Shadow Tag'],
 	},
 	{
 		name: "[Gen 9] Polished Crystal Ubers",
