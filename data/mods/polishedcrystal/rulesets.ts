@@ -55,7 +55,9 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 				return { name: mm, learn: [], finalstage: true };
 			});
 			evo_line.forEach(mon => {
-				const learnset = this.dex.species.learnsetCache.get(mon).learnset;
+				const cache = this.dex.species.learnsetCache.get(mon);
+				if (cache === undefined) return;
+				const learnset = cache.learnset;
 				marked_moves.forEach(move => {
 					if (learnset[move.name]) {
 						move.learn = move.learn.concat(learnset[move.name]);
@@ -71,7 +73,9 @@ export const Rulesets: {[k: string]: ModdedFormatData} = {
 				return [`${species} cannot use ${move_one} and ${move_two}.`];
 			} else if (marked_moves.length === 1 && marked_moves[0].finalstage) {
 				const move_one = this.dex.moves.get(marked_moves[0].name);
-				const learnset = this.dex.species.learnsetCache.get(speciesid).learnset;
+				const cache = this.dex.species.learnsetCache.get(speciesid);
+				if (cache === undefined) return;
+				const learnset = cache.learnset;
 				for (const move of set.moves) {
 					if (learnset[this.toID(move)] === undefined) return [`${species} cannot use ${move} and ${move_one}.`];
 				}
