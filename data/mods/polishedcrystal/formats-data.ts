@@ -543,7 +543,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "LC",
 	},
 	murkrow: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	natu: {
 		tier: "LC",
