@@ -849,7 +849,7 @@ export const FormatsData: {[k: string]: ModdedSpeciesFormatsData} = {
 		tier: "OU",
 	},
 	tangela: {
-		tier: "LC",
+		tier: "NFE",
 	},
 	tangrowth: {
 		tier: "OU",
