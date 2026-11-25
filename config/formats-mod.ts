@@ -41,7 +41,12 @@ export const Formats: FormatList = [
 		mod: 'polishedcrystal',
 		ruleset: ['Standard', 'Little Cup'],
 		teambuilderFormat: 'National Dex',
-		banlist: ['Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL', 'PU', 'ZUBL', 'ZU', 'NFE'],
+		banlist: [
+			// tiers
+			'Uber', 'OU', 'UUBL', 'UU', 'RUBL', 'RU', 'NUBL', 'NU', 'PUBL', 'PU', 'ZUBL', 'ZU', 'NFE',
+			// moves
+			'Dragon Rage',
+		],
 	},
 	{
 		name: "[Gen 9] Polished Crystal AG",
